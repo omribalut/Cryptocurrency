@@ -1,0 +1,502 @@
+.parallax {
+  /* The image used */
+  background-image: url("https://cutewallpaper.org/21/ethereum-wallpapers/Photos-Coins-Bitcoin-ripple-xrp-litecoin-ltc-ethereum-.jpg");
+
+  /* Set a specific height */
+  min-height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+@media (min-width: 575px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin-left: 10px;
+  }
+}
+  
+    @media only screen and (min-width: 575px)and (max-width:757){
+      .col{
+        background-image: url("https://cutewallpaper.org/21/ethereum-wallpapers/Photos-Coins-Bitcoin-ripple-xrp-litecoin-ltc-ethereum-.jpg");
+        height: 150px;
+        width: 250px;
+        box-shadow: 5px 5px rgb(28, 100, 168);
+        border-radius: 5%;
+        position: relative;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+        transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+      }
+
+    }
+
+
+/* Cards */
+.col {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDCIQhBFvy39pOxgX4jG7BgFisglGbFlr6Hw&usqp=CAU");
+  background-color: gold;
+  height: 300px;
+  width: 500px;
+  border: 1px solid black;
+  margin: 10px;
+  box-shadow: 5px 5px rgb(28, 100, 168);
+  border-radius: 5%;
+  position: relative;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+}
+
+.col:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.col .btn-primary {
+  color: rgb(230, 137, 137);
+  background-color: goldenrod;
+  border-color: #02448b;
+  position: absolute;
+  right: 156px;
+  top: 82%;
+  margin-left: 50px;
+
+}
+
+.btn-warning {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  position: absolute;
+  top: 83%;
+  left: 0%;
+}
+
+.col .btn-primary:hover {
+  background-color: gold;
+
+}
+
+p {
+  display: block;
+}
+
+.symbol {
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline solid gold;
+  color: gold;
+  font-family: monospace;
+  text-align: center;
+  width: 92%;
+  position: absolute;
+  overflow: auto;
+  top: 15%;
+}
+
+.name {
+  font-size: 75%;
+  font-weight: bold;
+  color: gold;
+  width: 100%;
+  position: absolute;
+  top: 39%;
+  display: flex;
+
+}
+
+.row {
+  justify-content: center;
+  display: flex;
+
+}
+
+/* Logo */
+.title {
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: auto;
+  font-family: "Sofia";
+  font-size: 60px;
+  font-weight: bold;
+  color: gold;
+  /*  */
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+}
+
+.title:hover {
+  color: goldenrod;
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+
+}
+
+/* About */
+#about {
+  position: relative;
+  display: flex;
+  margin: auto;
+  margin-bottom: 25px;
+  width: 25%;
+  padding: 10px;
+  ;
+
+}
+
+.about-card {
+  position: relative;
+  margin-top: 7px;
+  font-family: cursive;
+  font-size: 21px;
+  color: gold;
+  border: rgb(28, 46, 78) 2px solid;
+  background-color: rgb(82, 145, 197);
+  box-shadow: 5px 5px rgb(28, 100, 168);
+  border-radius: 5%;
+  display: none;
+}
+
+@media only screen and (min-width: 700px)and (max-width:757){
+  .about-card{
+    position: absolute;
+    font-family: cursive;
+    font-size: 21px;
+    color: gold;
+    border: rgb(28, 46, 78) 2px solid;
+    background-color: rgb(82, 145, 197);
+    box-shadow: 5px 5px rgb(28, 100, 168);
+    border-radius: 5%;
+    display: none;
+    right: -72%;
+    top: 60%;
+}
+}
+
+/* Mobile */
+
+@media only screen and (min-width: 375px)and (max-width:812){
+  .about-card{
+    position: relative;
+    font-family: cursive;
+    font-size: 21px;
+    color: gold;
+    border: rgb(28, 46, 78) 2px solid;
+    background-color: rgb(82, 145, 197);
+    box-shadow: 5px 5px rgb(28, 100, 168);
+    border-radius: 5%;
+    display: none;
+    top: 60%;
+    right: 150%;
+}
+}
+
+
+/* Toggle */
+
+.switch {
+  position: absolute;
+  top: 8%;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  left: 81%;
+}
+
+@media only screen and (min-width: 768px)and (max-width:900px){
+  .switch{
+    position: absolute;
+    top: 8%;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    left: 72%;
+}
+}
+
+@media only screen and (min-width: 992px)and (max-width:1900px){
+  .switch{
+    position: absolute;
+    top: 8%;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    left: 64%;
+}
+}
+@media only screen and (min-width: 1280px)and (max-width:1900px){
+  .switch{
+    position: absolute;
+    top: 8%;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    left: 72%;
+}
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked+.slider {
+  background-color: #3b668a;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* More Info */
+#coin-details {
+  margin: auto;
+  margin-bottom: 25px;
+  width: fit-content;
+  padding: 10px;
+  margin-top: 7px;
+  font-family: cursive;
+  font-size: 21px;
+  color: gold;
+  background-color: rgb(82, 145, 197);
+  box-shadow: 5px 5px rgb(28, 100, 168);
+  border-radius: 5%;
+  text-decoration: underline 2px gold;
+  display: flex;
+
+}
+
+/* Coin Name */
+#more-info {
+  position: absolute;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline solid #027ac0;
+  color: #027ac0;
+  font-family: monospace;
+  text-align: center;
+  padding: 7px;
+  padding-bottom: 15px;
+  background-image: linear-gradient(gold, white);
+  display: flex;
+  top: 45%;
+}
+
+#coin-img {
+    
+    position: absolute;
+    top: 78%;
+    right: 120px;
+    display: flex;
+    left: 47%;
+  }
+
+#usd {
+  position: absolute;
+  background-image: linear-gradient(gold, white);
+  font-size: 75%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline solid #027ac0;
+  color: #027ac0;
+  font-family: monospace;
+  text-align: center;
+  display: flex;
+  top: 63%;
+
+}
+
+#eur {
+  background-image: linear-gradient(gold, white);
+  position: absolute;
+  font-size: 75%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline solid #027ac0;
+  color: #027ac0;
+  font-family: monospace;
+  text-align: center;
+  display: flex;
+  bottom: 32%;
+
+}
+
+#ils {
+  position: absolute;
+  background-image: linear-gradient(gold, white);
+  font-size: 75%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline solid #027ac0;
+  color: #027ac0;
+  font-family: monospace;
+  text-align: center;
+  display: flex;
+  top: 69%;
+
+}
+
+#coin-container {
+  display: none;
+  position: relative;
+  justify-content: center;
+
+}
+
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  background-color: transparent;
+  border: 1px solid gold;
+  border-radius: .25rem;
+}
+
+/* Progress Bar */
+#loading {
+  visibility: hidden;
+}
+
+#loading>img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+}
+
+/* Toggle Message */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tooManyCoins {
+  background-image: url("https://cutewallpaper.org/21/ethereum-wallpapers/Photos-Coins-Bitcoin-ripple-xrp-litecoin-ltc-ethereum-.jpg");
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 62%;
+  overflow: auto;
+  background-color: #027ac0;
+  margin-left: 38%;
+  margin-top: 13%;
+  justify-content: center;
+  padding: 10px;
+  border: 6px solid rgb(37, 39, 145);
+  width: 23%;
+  border-radius: 3%;
+}
+
+h5{
+  color: gold;
+}
+
+li {
+  color: gold; /* bullet color */
+}
